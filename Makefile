@@ -6,7 +6,7 @@ install:
 
 test:
 	@echo "Running tests..."
-	@python -m unittest discover -s . -p "test_*.py"
+	@python3 -m unittest discover -s . -p "test_*.py"
 
 run:
 	@echo "Running application..."
